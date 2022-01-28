@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Week 4 exercise</title>
-</head>
-<body>
-  <div id="header"><h1>This is the about semantic html</h1></div>
-  <div class="section">
-    <h2>Why senmantic html?</h2>
-    <div class="article">
-      <p>Elements such as &lt;header&gt;, &lt;footer&gt; and &lt;article&gt; are all considered semantic 
-      because they accurately describe the purpose of the element and the type of content that is inside them.
-      The code is much easier to read.</p>
-      <div class="figure">
-        <img>
-        <div class="figcaption"></div>
-      </div>
-    </div>
-  </div>
-  <div id="footer"></div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Week 4 exercise</title>
+		<style>
+			p {
+				color: crimson;
+				background-color: darkblue;
+				margin: 50px;
+				padding: 20px;
+			}
+			header {
+				color: darkblue;
+				text-align: center;
+				background-color: yellowgreen;
+				padding: 30px;
+			}
+			h2 {
+				background-color: thistle;
+				color: violet;
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header><h1>This is the about semantic html</h1></header>
+		<section>
+			<h2 style="color: tomato;">Why semantic html?</h2>
+			<article>
+				<p>Elements such as &lt;header&gt;, &lt;footer&gt; and &lt;article&gt; are all considered semantic 
+				because they accurately describe the purpose of the element and the type of content that is inside them.
+				The code is much easier to read.</p>
+				<figure>
+					<img src="../in_class/images/appa.jpg" alt="appa.jpg" width="auto" height="300px">
+					<figcaption>Appa</figcaption>
+				</figure>	
+			</article>
+		</section>
+		<footer>ACIT1620 In Class Exercises</footer>
+	</body>
 </html>
